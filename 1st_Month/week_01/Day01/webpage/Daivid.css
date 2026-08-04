@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #edf1fb;
+}
+body {
+  height: 100vh;
+}
+h1 {
+  font-size: 1.6rem;
+  color: #000000;
+}
+nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+  display: flex;
+  gap: 3.4rem;
+}
+nav ul li {
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: #fff;
+  padding: 5px 10px 5px 10px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+nav ul li.active {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+nav ul li:hover {
+  background-color: #000;
+  color: #fff;
+  transform: translateY(-3px);
+}
+#talk {
+  padding: 10px 15px 10px 15px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  outline: none;
+  border: 1;
+  border-color: rgb(27, 28, 28);
+  cursor: pointer;
+}
+#talk:hover {
+  background-color: #000;
+  color: #fff;
+  transform: translateY(-3px);
+  i {
+    background-color: #000;
+  }
+}
+
+#about-me {
+  padding: 20px 25px 20px 25px;
+  border-radius: 40px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+#about-me:hover {
+  opacity: 0.9;
+}
+
+#arrow-btn {
+  background-color: black;
+}
+.profile {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#description {
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  p {
+    font-size: 3.5rem;
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 7rem;
+  }
+}
+.language {
+  font-size: 2rem;
+  font-weight: 600;
+}
+#image {
+  width: 40%;
+  img {
+    width: 100%;
+  }
+}
+
+.client-social {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.client-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#follwer {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+}
+
+#client {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 17px;
+  img {
+    width: 50px;
+  }
+}
